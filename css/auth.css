@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(50, 100, 207);
+    color: white;
+}
+div.auth{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border : 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.errors{
+  color: rgb(253, 30, 30);
+  text-align: center;
+  border : 1px solid rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
+div.good
+{   
+    background-color: rgb(150, 100, 207);
+    width: 1000px;
+    height: 125px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+div.good a 
+{
+    color: red; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+} 
+div.good a:hover 
+{
+    color: yellow; /* Цвет ссылки при наведении на нее курсора мыши */  
+    /*text-decoration: underline; /* Добавляем подчеркивание */
+}

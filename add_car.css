@@ -1,0 +1,84 @@
+
+body{
+    background-color: rgb(62, 184, 255);
+}
+
+.form_car{
+    margin-top: 50px;   
+}
+
+.table{
+    /*position: absolute;
+    float: right;*/
+    right: 45%;
+    margin-top: 100px;
+}
+.name_car{
+    color:rgb(26, 1, 255);
+    width: 100px;
+    background-color: rgb(0, 108, 209);
+
+}
+
+h2{
+    color:rgb(106, 56, 245);
+}
+.error_mesage{
+    color:red;
+}
+
+.ccd {
+    height: 95px;
+    overflow: hidden;
+    width: 60%;
+    margin:0 auto;
+    position: relative;
+}
+
+.info_about_auto{
+    font-size: 25px;
+    color:rgb(4, 70, 253)
+}
+
+.button{
+    color:hsl(193, 100%, 50%);
+    padding: 5px 8px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#00c6ff 50%,#e100ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 200 12px tahoma;
+    border: 1px solid #00C6FF;
+   }
+   .button:hover {
+   background-position: 0 0;
+   color:#fff;
+   }
+
+   .button_delete{
+    color:hsl(0, 95%, 71%);
+    padding: 5px 8px;
+    width:100px;
+    text-decoration:none;
+    text-align:center;
+    margin:0px auto;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#e100ff 50%,#00c6ff);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 200 12px tahoma;
+    border: 1px solid #00C6FF;
+   }
+   .button_delete:hover {
+   background-position: 0 0;
+   color:#fff;
+   }
+
+
+
